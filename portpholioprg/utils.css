@@ -1,0 +1,57 @@
+
+*{
+   margin: 0;
+   padding: 0%;
+}
+
+
+.hello-all {
+      margin-left: 5px;
+         font-size: 25px;
+         padding-top:30px ;
+      }
+    
+      .myname{
+       margin-left: 5px;
+         font-size: 33px;
+         font-weight: bolder;
+      }
+    
+      .aboutme {
+       margin-left: 10px;
+         font-size: 22px;
+         margin-bottom: 4px;
+    
+      }
+      .me{
+       padding-top: 5px;
+       margin-left: 60px;
+      }
+       .in-focontainer {
+   background-color: whitesmoke;
+     color: rgb(250, 235, 235);
+     height: 45vw;
+     width: 100vw;
+     padding-top: 7px;
+     padding-left: 30px;
+     display: flex;
+  }
+  .prgf{
+   font-size: 18px;
+  }
+
+  .devinfo {
+   padding-top: 40px;
+   padding-left: 200px;
+   margin-right: 5rem;
+     flex-direction: column;
+     color: #000;
+  }
+  .devpiic img { 
+   margin-right: 10rem;
+   width: 20rem; 
+   height: 25rem;
+   padding-right: 10px;
+   padding-top: 2px;
+   display: flex;
+}

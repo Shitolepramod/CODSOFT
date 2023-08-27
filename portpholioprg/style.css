@@ -1,0 +1,295 @@
+  * {
+     margin: 0;
+     padding: 0%;
+  }
+
+  .sidebar {
+
+     background-color: rgb(93, 78, 102);
+     width: 200px;
+     height: 70vw;
+     transition: transform 0.3s easy-in;
+   
+  }
+
+  .sidebarGo {
+     transform: translate(-443px, 0px);
+     position: absolute;
+  }
+
+  .sidebar nav {
+     padding: 60px;
+  }
+
+  .sidebar nav li {
+   
+     list-style: none;
+     font-size: 20px;
+     padding: 0px 0px 10px 10px;
+     padding-top: 20px;
+
+  }
+
+  .sidebar nav li a {
+
+     text-decoration: none;
+     color: white;
+     margin-right: 30px;
+     margin-top: 20rem;
+  }
+
+  .main {
+     width: 29vw;
+  }
+
+  .container {
+     display: inline-flex;
+  }
+
+  .infocontainer {
+     background-color: whitesmoke;
+     color: rgb(250, 235, 235);
+     height: 45vw;
+     width: 100vw;
+     padding-top: 25px;
+     padding-left: 30px;
+     display: flex;
+  }
+
+  .devinfo {
+     padding-top: 40px;
+     padding-left: 200px;
+     margin-right: 5rem;
+     flex-direction: column;
+     color: #000;
+  }
+
+  .hello {
+     margin-left: 130px;
+     font-size: 25px;
+     padding-top: 147px;
+  }
+
+  .name {
+     margin-left: 80px;
+     font-size: 33px;
+     font-weight: bold;
+  }
+
+  .about {
+     margin-left: 65px;
+     font-size: 22px;
+     margin-bottom: 4px;
+
+  }
+  .copy{
+   margin-right:150px ;
+   margin-top: 50px;
+   margin-left:100px ;
+   justify-content: center;
+   text-align: center;
+   
+
+  }
+
+  .me {
+     padding-top: 5px;
+     margin-left: 60px;
+  }
+
+  .myself {
+     font-size: 20px;
+     margin-left: 145px;
+     font-size: 30px;
+     font-weight: bold;
+  }
+
+  .btn button {
+     margin: 7px 3px;
+     padding: 4px 10px;
+     border-radius: 10px;
+
+     color: white;
+     background-color:rgb(15, 13, 119);
+     font-weight: bold;
+     font-size: 12px;
+  }
+
+
+  .btn button:hover {
+     color: blue;
+     background-color: white;
+  }
+
+  .devpic img {
+     width: 20rem;
+     height: 25rem;
+     margin-right: 15rem;
+     padding-top: 15px;
+     display: flex;
+  }
+  .devpiccc img {
+   width: 7rem;
+   height: 7rem;
+   padding-top: 80px;
+   padding-right: 80px;
+   display: flex;
+}
+
+  .contactinfo {
+     padding-top: 10rem;
+     text-align: center;
+     font-size: larger;
+     color: black;
+     padding-right: 300px;
+  }
+
+  .contactinfo button {
+   background-color: blue;
+   color: white;
+     border-radius: 12px;
+     font-size: 15px;
+     padding: 5px;
+  }
+
+  .mb1 {
+     padding-right: 80px;
+     padding-top: 25px;
+     padding-bottom: 16px
+    
+
+  }
+
+  .form-label {
+     font-size: 25px;
+  }
+
+  .form-text {
+     font-size: 14px;
+  }
+
+  .mb2 {
+     padding-bottom: 16px;
+     font-size: 25px;
+     padding-right: 80px;
+  }
+
+  .mb3 {
+     font-size: 22px;
+     padding: right 50px;
+  }
+
+  .mb2-1 {
+     padding-right: 80px;
+     padding-bottom: 16px;
+     font-size: 22px;
+  }
+
+  .btn-primary {
+     margin-top: 15px;
+     font-size: 18px;
+  }
+
+  .form-control {
+     width: 12rem;
+  }
+
+  .blogcontainer h1 {
+     border-radius: 15px;
+     color: rgb(169, 43, 60);
+     margin-left: 350px;
+     padding-top: 30px;
+     margin-right: 10px;
+  }
+
+  .blogcontainer h2 {
+     border-radius: 15px;
+     color: rgb(223, 29, 29);
+     margin-left: 15px;
+     margin-right: 450px;
+
+  }
+  .btn2{
+   padding-left: 30px;
+   color:blue ;
+  }
+  .blogitem button{
+   color:white ;
+   background-color: blue;
+   border-radius: 6px;
+  }
+  
+
+  .blogitem {
+     padding-top: 30px;
+     padding-bottom: 5px;
+     padding-right: 0px;
+     
+    }
+
+    .blogitem p {
+      padding-bottom: 5px;
+      padding-left: 30px;
+     }
+     
+
+ 
+
+  
+
+  .mainn h2 {
+     color:  rgb(210, 47, 47);
+     margin-top: 20px;
+     justify-content: center;
+     text-align: center;
+     margin-right: 200px;
+
+  }
+
+  .mainn h3 {
+   margin-top: 30px;
+     color: rgb(210, 47, 47);
+     margin-left: 20px;
+     justify-content: center;
+     
+  }
+
+  .hamber {
+     position: absolute;
+     cursor: pointer;
+     top: 10px;
+     left: 10px;
+  }
+
+
+  .cross {
+     margin-left: 140px;
+     margin-top: 4px;
+
+  }
+
+  .btn1 button {
+     font-size: 13px;
+     margin-top: 7px;
+     color: rgb(241, 230, 230);
+     background-color: rgb(83, 72, 175);
+     border-radius: 3px;
+  }
+  .png{ 
+  width: 200px;
+     height: 250px;
+    padding-left: 90px;
+     display: flex;
+  }
+
+  @media(max-width:1315px) {
+     * {
+        background-color: brown;
+     }
+  }
+
+  /* .sidebar{
+        transform: translate(-443px, 0px);
+        position:absolute;
+     }
+   } */
