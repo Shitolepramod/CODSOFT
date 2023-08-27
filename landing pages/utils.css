@@ -1,0 +1,115 @@
+.min-h-screen{
+    min-height: 10vh;
+}
+
+
+.mx-auto{
+    margin-left:auto;
+    margin-right:auto;
+}
+.flex{
+    display: flex;
+    justify-content:space-between;
+}
+.items-center{
+    align-items:center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.font-col{
+    flex-direction: column;
+}
+.font-bold{
+    font-weight: bolder;
+}
+
+.m-1{
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-bottom: 7rem;
+    padding-bottom: 70rem;
+}
+
+.m1{
+    margin-left: 50px;
+    margin-bottom: 20rem;
+    padding-bottom: 20rem;
+}
+
+.text-blue{
+    
+    color:rgba(230, 60, 18, 0.897);
+    font-size: larger;
+    font-weight: bolder;
+    padding-top: 9px;
+    margin-bottom: 12px;
+    margin-left: 50px;
+    
+    
+}
+.mar{
+    margin: 5px;
+    margin-top: 35px;
+}
+.diss{
+    margin-top: 5px;
+    margin-bottom: 10rem;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 50rem;
+}
+.section1  h1{
+    font-size:2rem;
+    height:40px ;
+    padding: 2px;
+    margin-bottom: 1px;
+}
+
+.btn{
+    padding: 7px 12px;
+    border: 2px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    color: aliceblue;
+    background-color:rgba(230, 60, 18, 0.897) ;
+}
+.img-gym{
+        float: right;
+        float: inline-start;
+         max-width: 100%;
+         max-height: 370px;
+}
+.dumb{
+   
+    height: 110px;
+    width: 110px;
+    padding-top: 10px;
+    margin-top: 25px;
+    padding-left: 4rem;
+    margin-left: 17rem;
+    
+}
+.text-center{
+    justify-content: center;
+    text-align: center;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    font-size: 33px;
+}
+.display{
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+
+}
+.f{
+    font-weight: 20px;
+    justify-content:center;
+    text-align: center;
+
+}
